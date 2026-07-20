@@ -1,0 +1,14 @@
+# Never commit harvested data or secrets
+*.json
+*.jsonl
+*.zip
+corpus_out/
+corpus_*.md
+INDEX.md
+STATS.md
+.env
+.env.*
+*.key
+*.pem
+__MACOSX/
+.DS_Store
