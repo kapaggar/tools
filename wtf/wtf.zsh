@@ -1,4 +1,8 @@
 # ── wtf: ask Claude what just went wrong ─────────────────────────────
+# brew install jq                                    # if not already
+# security add-generic-password -s anthropic-api-key -a "$USER" -w   # paste key; won't echo
+# cat wtf.bash >> ~/.bashrc                           # or ~/.bash_profile (see note)
+# source ~/.bashrc
 # Usage:
 #   some-command 2>&1 | wtf        # BEST: pipes real stderr, no re-run
 #   wtf                            # re-runs last history cmd (with a guard)
